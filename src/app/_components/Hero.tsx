@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Hero = () => {
@@ -16,7 +17,9 @@ const Hero = () => {
                             <h2 className="text-4xl font-bold">12 Months FREE</h2>
                             <p className="text-xl">Villa Management Services</p>
                         </div>
-                        <button className="p-2 bg-primary text-white rounded-full w-auto mx-auto">Learn More</button>
+                        <Link href={ '/services' }>
+                            <button className="p-2 bg-primary text-white rounded-full w-auto mx-auto">Learn More</button>
+                        </Link>
                         <p className="uppercase text-xs"><span className="font-bold">Limited time only - </span>TERMS & CONDITIONS APPLY</p>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Pricing() {
@@ -14,7 +15,9 @@ function Pricing() {
                         <h2 className="text-xl md:text-2xl">Villa Management Services</h2>
                         <p className="text-xs"><span className=" font-extrabold">LIMITED TIME ONLY - </span>TERMS & CONDITIONS APPLY </p>
                     </div>
-                    <button className="py-2 px-8 bg-primary text-white rounded-full w-auto">Learn More</button>
+                    <Link href={ '/services' }>
+                        <button className="py-2 px-8 bg-primary text-white rounded-full w-auto">Learn More</button>
+                    </Link>
                 </div>
             </div>
         </div>
