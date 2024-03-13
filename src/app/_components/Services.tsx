@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div className="bg-cover p-8 min-h-screen flex flex-col justify-between" style={ { backgroundImage: "url(/img/service.png)" } }>
             <div className="pt-20 md:pt-44 flex flex-col md:gap-20">
-                <h1 className="text-4xl md:text-[10rem] font-bold">Services</h1>
+                <h1 className="text-6xl md:text-[10rem] font-bold">Services</h1>
                 <p className="text-sm md:text-3xl font-light text-center">360<sup>o</sup> Property Sales and Management Solutions</p>
             </div>
             <div className="flex flex-col md:flex-row gap-5 justify-center py-10">

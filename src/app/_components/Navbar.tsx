@@ -38,13 +38,13 @@ const Navbar = () => {
                 { showMobile &&
                     <div className="sm:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pb-3 pt-2">
-                            <a href="#" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Services</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Catalog</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Pricing</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</a>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Eng</a>
+                            <Link href="/" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>Home</Link>
+                            <Link href="/contact" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/contact' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>Contact</Link>
+                            <Link href="/services" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/services' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>Services</Link>
+                            <Link href="/" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/catalog' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>Catalog</Link>
+                            <Link href="/pricing" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/pricing' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>Pricing</Link>
+                            <Link href="/about-us" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/about-us' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>About Us</Link>
+                            <Link href="#" onClick={ () => setShowMobile(false) } className={ `${ pathName === '/eng' ? 'bg-gray-900 text-white' : 'text-third hover:bg-gray-700 hover:text-white' } block rounded-md px-3 py-2 text-base font-medium` }>Eng</Link>
                         </div>
                     </div>
                 }

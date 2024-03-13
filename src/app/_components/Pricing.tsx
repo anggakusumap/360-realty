@@ -4,7 +4,7 @@ function Pricing() {
     return (
         <div className="bg-cover p-8 min-h-fit flex flex-col gap-10 justify-between" style={ { backgroundImage: "url(/img/pricing.png)" } }>
             <div className="pt-20 md:pt-44 flex flex-col md:gap-20">
-                <h1 className="text-2xl md:text-[12rem] font-bold text-end">Pricing</h1>
+                <h1 className="text-6xl md:text-[12rem] font-bold text-end">Pricing</h1>
                 <p className="text-sm md:text-3xl ml-0 md:ml-96 2xl:text-4xl font-light text-center">Commission only management services</p>
             </div>
             <div className="flex flex-col items-start shadow-md shadow-sky-400 justify-start w-full md:w-1/2 bg-white rounded-xl py-8 px-4 gap-3">
