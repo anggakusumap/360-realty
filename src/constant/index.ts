@@ -14,6 +14,7 @@ import Marketing1 from "../../public/img/marketing1.png";
 import Marketing2 from "../../public/img/marketing2.png";
 import Marketing3 from "../../public/img/marketing3.png";
 import Marketing4 from "../../public/img/marketing4.png";
+import ogImage from "../../public/img/opengraph-image.png";
 
 const ServiceList = [
   {
@@ -216,4 +217,5 @@ export {
   PropertyList,
   MarketingList,
   OurServicesList,
+  ogImage,
 };
