@@ -87,28 +87,133 @@ const PropertyList = [
 const MarketingList = [
   {
     name: "Social Media",
-    pic: Property1,
+    pic: Marketing1,
     description:
       "Social media and content creation and strategy will be specially curated and managed to ensure high levels of engagement and to create awareness and drive extra organic sales and increase profitability.",
   },
   {
     name: "Web Development",
-    pic: Property2,
+    pic: Marketing2,
     description:
       "We have a in-house team of superstar web developers and designers to create a modern stylish new website design to help showcase your property and drive direct bookings, helping you to increase your profitability. ",
   },
   {
     name: "Media Content",
-    pic: Property3,
+    pic: Marketing3,
     description:
-      "We have a professional photographers and videographers in-house with top of the line equipment and software to ensure the highest quality images and videos of your property that will help highlight the best features of your villa.",
+      "We have a professional photographers and videographers in-house with top of the line equipment and software to ensure the highest quality images and videos of your Marketing that will help highlight the best features of your villa.",
   },
   {
     name: "Digital Marketing",
-    pic: Property4,
+    pic: Marketing4,
     description:
       "We are marketing and SEO specialists at heart with 20+ years experience, with 360 your in the right hands. We have media partners and an vast range of distribution channels to ensure your villa gets the best ROI possible.",
   },
 ];
 
-export { WhatsappPic, ServiceList, RentalList, PropertyList, MarketingList };
+const OurServicesList = [
+  {
+    name: "Professional photo and video shoot with drone pilot",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Website development",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Digital marketing strategy",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Search engine optimization connection with 300+ media partners",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Social media management",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Dynamic pricing strategy",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Channel management connection",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Connection to global distribution channels",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "360 Reservation management",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "24/ 7 Guest communication",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Monthly sales reporting",
+    option1: true,
+    option2: true,
+  },
+  {
+    name: "Dedicated villa manager",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "360 staff management and training",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "24 / 7 Guest concierge service",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "House keeping, garden and pool cleaner",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "24 / 7 Engineering and maintenance  team",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "Expense management and optimization",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "360 book keeping with financial reports",
+    option1: true,
+    option2: false,
+  },
+  {
+    name: "Legal and administrative support",
+    option1: true,
+    option2: false,
+  },
+];
+
+export {
+  WhatsappPic,
+  ServiceList,
+  RentalList,
+  PropertyList,
+  MarketingList,
+  OurServicesList,
+};
