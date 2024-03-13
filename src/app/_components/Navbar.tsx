@@ -19,8 +19,8 @@ const Navbar = () => {
                             </button>
                         </div>
                         <div>
-                            <h1 className='font-semibold text-2xl'>360<sup>o</sup> REALTY</h1>
-                            <p className='text-xs'>Sales & Management Solutions</p>
+                            <h1 className="font-semibold text-2xl">360<sup>o</sup> REALTY</h1>
+                            <p className="text-xs">Sales & Management Solutions</p>
                         </div>
                         <div className="flex flex-1 items-center justify-end">
                             <div className="hidden sm:ml-6 sm:block">

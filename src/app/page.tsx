@@ -1,5 +1,11 @@
+import Hero from "./_components/Hero";
+import Whatsapp from "./_components/Whatsapp";
+
 export default function Home() {
   return (
-    <div>main</div>
+    <>
+      <Hero />
+      <Whatsapp />
+    </>
   );
 }
