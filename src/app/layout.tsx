@@ -9,9 +9,6 @@ const inter = Inter({ subsets: [ "latin" ] });
 export const metadata: Metadata = {
   title: "360 Realty",
   description: "Property Sales and Management Solutions",
-  openGraph: {
-    images: "/img/hero.png"
-  }
 };
 
 export default function RootLayout({
