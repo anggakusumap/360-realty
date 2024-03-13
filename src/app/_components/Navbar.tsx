@@ -27,7 +27,7 @@ const Navbar = () => {
                                 <Link href="/" className={ `${ pathName === '/' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Home</Link>
                                 <Link href="/contact" className={ `${ pathName === '/contact' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Contact</Link>
                                 <Link href="/services" className={ `${ pathName === '/services' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Services</Link>
-                                <Link href="/catalog" className={ `${ pathName === '/catalog' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Catalog</Link>
+                                <Link href="/" className={ `${ pathName === '/catalog' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Catalog</Link>
                                 <Link href="/pricing" className={ `${ pathName === '/pricing' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Pricing</Link>
                                 <Link href="/about-us" className={ `${ pathName === '/about-us' ? 'text-third' : 'text-primary' } uppercase text-sm` }>About Us</Link>
                                 <Link href="#" className="text-third uppercase text-sm">Eng</Link>

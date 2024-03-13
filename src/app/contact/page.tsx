@@ -1,11 +1,7 @@
-import ServicesComponent from "../_components/Services";
-import Whatsapp from "../_components/Whatsapp";
+import Contact from "../_components/Contact";
 
-export default function Contact() {
+export default function ContactPage() {
     return (
-        <>
-            <ServicesComponent />
-            <Whatsapp />
-        </>
+        <Contact />
     );
 }
