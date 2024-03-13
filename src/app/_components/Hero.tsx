@@ -10,7 +10,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col items-start gap-4">
-                <div className="rounded-lg text-center w-96 max-w-full bg-base-100 bg-white shadow-xl shadow-sky-400 p-4">
+                <div className="rounded-lg text-center w-96 max-w-full bg-base-100 bg-white shadow-md shadow-sky-400 p-4">
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col">
                             <h2 className="text-4xl font-bold">12 Months FREE</h2>

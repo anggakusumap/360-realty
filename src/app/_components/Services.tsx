@@ -10,7 +10,7 @@ const Services = () => {
                 <p className="text-sm md:text-4xl text-center">360<sup>o</sup> Property Sales and Management Solutions</p>
             </div>
             <div className="flex flex-col md:flex-row gap-5 justify-center py-10">
-                { ServiceList.map((service) => <div key={ service.name } className="bg-white p-10 w-full md:w-1/4 text-center rounded-3xl shadow-xl shadow-sky-400">
+                { ServiceList.map((service) => <div key={ service.name } className="bg-white p-10 w-full md:w-1/4 text-center rounded-3xl shadow-md shadow-sky-400">
                     <Image src={ service.pic } alt={ service.name } width={ 100 } height={ 100 } className="mx-auto" />
                     <p className="text-neutral-500 text-xl">{ service.name }</p>
                 </div>) }

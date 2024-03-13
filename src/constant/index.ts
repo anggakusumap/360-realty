@@ -6,6 +6,14 @@ import Rental1 from "../../public/img/rental1.png";
 import Rental2 from "../../public/img/rental2.png";
 import Rental3 from "../../public/img/rental3.png";
 import Rental4 from "../../public/img/rental4.png";
+import Property1 from "../../public/img/property1.png";
+import Property2 from "../../public/img/property2.png";
+import Property3 from "../../public/img/property3.png";
+import Property4 from "../../public/img/property4.png";
+import Marketing1 from "../../public/img/marketing1.png";
+import Marketing2 from "../../public/img/marketing2.png";
+import Marketing3 from "../../public/img/marketing3.png";
+import Marketing4 from "../../public/img/marketing4.png";
 
 const ServiceList = [
   {
@@ -49,4 +57,58 @@ const RentalList = [
   },
 ];
 
-export { WhatsappPic, ServiceList, RentalList };
+const PropertyList = [
+  {
+    name: "Villa Sales",
+    pic: Property1,
+    description:
+      "Professionally trained sales staff and management team to ensure your property is valued correctly and marketed in a way that really drives enquires and conversions faster than any other company in the market",
+  },
+  {
+    name: "Land Sales",
+    pic: Property2,
+    description:
+      "We have 30+ years experience in land procurement in sales in Bali alone, this gives us the ability to share  insights with our customers to ensure they are finding the perfect solution to build their next dream home, at the right price.",
+  },
+  {
+    name: "Legal Services",
+    pic: Property3,
+    description:
+      "When it comes to property and land sales having the right professional to bring the deal home for piece of mind is priceless. We have in-house notary and legal professionals available for all our clients when working with 360.",
+  },
+  {
+    name: "Procurement",
+    pic: Property4,
+    description:
+      "Theres nothing more frustrating when you really want to buy something but you just cant find what you want anywhere. Save yourself the time & contact our team, we have a 360 market view & the largest property database in Bali",
+  },
+];
+
+const MarketingList = [
+  {
+    name: "Social Media",
+    pic: Property1,
+    description:
+      "Social media and content creation and strategy will be specially curated and managed to ensure high levels of engagement and to create awareness and drive extra organic sales and increase profitability.",
+  },
+  {
+    name: "Web Development",
+    pic: Property2,
+    description:
+      "We have a in-house team of superstar web developers and designers to create a modern stylish new website design to help showcase your property and drive direct bookings, helping you to increase your profitability. ",
+  },
+  {
+    name: "Media Content",
+    pic: Property3,
+    description:
+      "We have a professional photographers and videographers in-house with top of the line equipment and software to ensure the highest quality images and videos of your property that will help highlight the best features of your villa.",
+  },
+  {
+    name: "Digital Marketing",
+    pic: Property4,
+    description:
+      "We are marketing and SEO specialists at heart with 20+ years experience, with 360 your in the right hands. We have media partners and an vast range of distribution channels to ensure your villa gets the best ROI possible.",
+  },
+];
+
+export { WhatsappPic, ServiceList, RentalList, PropertyList, MarketingList };
