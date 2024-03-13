@@ -1,10 +1,13 @@
 "use client";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
     const [ showMobile, setShowMobile ] = useState(false);
+    const pathName = usePathname();
 
     return (
         <header className="fixed top-0 w-full bg-[#F4F4F4] z-10">
@@ -20,14 +23,14 @@ const Navbar = () => {
                             <p className="text-xs">Sales & Management Solutions</p>
                         </div>
                         <div className="hidden md:flex flex-1 items-center justify-end">
-                            <div className="flex space-x-10 justify-end">
-                                <a href="#" className="text-third uppercase text-sm font-semibold" aria-current="page">Home</a>
-                                <a href="#" className="text-primary uppercase text-sm font-medium">Contact</a>
-                                <a href="#" className="text-primary uppercase text-sm font-medium">Services</a>
-                                <a href="#" className="text-primary uppercase text-sm font-medium">Catalog</a>
-                                <a href="#" className="text-primary uppercase text-sm font-medium">Pricing</a>
-                                <a href="#" className="text-primary uppercase text-sm font-medium">About Us</a>
-                                <a href="#" className="text-third uppercase text-sm font-medium">Eng</a>
+                            <div className="flex space-x-10 justify-end font-bold">
+                                <Link href="/" className={ `${ pathName === '/' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Home</Link>
+                                <Link href="/contact" className={ `${ pathName === '/contact' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Contact</Link>
+                                <Link href="/services" className={ `${ pathName === '/services' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Services</Link>
+                                <Link href="/catalog" className={ `${ pathName === '/catalog' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Catalog</Link>
+                                <Link href="/pricing" className={ `${ pathName === '/pricing' ? 'text-third' : 'text-primary' } uppercase text-sm` }>Pricing</Link>
+                                <Link href="/about-us" className={ `${ pathName === '/about-us' ? 'text-third' : 'text-primary' } uppercase text-sm` }>About Us</Link>
+                                <Link href="#" className="text-third uppercase text-sm">Eng</Link>
                             </div>
                         </div>
                     </div>
