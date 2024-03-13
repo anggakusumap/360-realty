@@ -24,8 +24,12 @@ function OurServices() {
             <div className="flex flex-col pt-10">
                 { OurServicesList.map((service) => <div key={ service.name } className="flex border-b-2 text-[#797979] py-4">
                     <h1 className="w-8/12">{ service.name }</h1>
-                    <FaCheckCircle className="w-2/12 text-xl md:text-3xl text-primary" />
-                    <FaCheckCircle className="w-2/12 text-xl md:text-3xl text-primary" />
+                    { service.option1 &&
+                        <FaCheckCircle className="w-2/12 text-xl md:text-3xl text-primary" />
+                    }
+                    { service.option2 &&
+                        <FaCheckCircle className="w-2/12 text-xl md:text-3xl text-primary" />
+                    }
                 </div>) }
             </div>
         </div>
